@@ -7,6 +7,10 @@ body {
     
 }
 
+.container {
+  width: 100vw;
+}
+
 h1 {
     color: rgb(0, 59, 105);
     font-family: 'Catamaran', sans-serif;
@@ -413,46 +417,6 @@ position: relative; */
 
 
 
-    .nav{
-        padding-left: 4em;
-        padding-right: 4em;
-        /* TODO: figure out no longer staying fixed */
-        position: relative;
-        width: 100%;
-        top:0px;
-        z-index: 1;
-        
-       
-      }
-    
-      nav ul {
-        margin:0;
-        padding:0;
-        padding-left:4em;
-        padding-right: 4em;
-        display:flex;
-        
-      }
-      nav li{
-    
-        list-style-type: none;
-        padding: 35px;
-        font-size: 1.5em;
-        
-      }
-      
-      nav li a {
-        color: rgb(0, 59, 105);
-        font-weight: 700;
-        text-decoration: none;
-        transition: .3s;
-      }
-      
-      nav li a:hover {
-        color:rgb(225, 38, 113);
-        opacity: 1;
-        text-decoration: none;
-      }
 
       .ice-skate {
         width: 600px;
@@ -490,8 +454,9 @@ position: relative; */
       margin-right: auto;
     }
     
-  .nav {
-    margin: auto;
+  .nav li {
+    padding: 150px;
+  font-size: 1.7em;
     
   }
     
