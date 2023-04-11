@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Robbie's Portfolio Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="interaction.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;700&display=swap" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <script src="main.js"></script>
+  <link rel="icon" href="assets/favicon3.png">
+
+</head>
+<body>
+    <!-- start of the navigation area -->
+<nav>
+    <h1>Robbie Raposa</h1>
+    <!-- start of an unordered list -->
+    <ul>
+      <!-- first link -->
+      <li>
+        <a href="index.html" class="link">Work</a>
+      </li>
+       <!-- second link -->
+       <li>
+        <a href="about.html" class="link">About</a>
+      </li>
+       <!-- third link -->
+       <li>
+        <a href="contact.html" class="link">Contact</a>
+      </li>
+    </ul>
+  </nav> 
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="assets/neutral-face.png" width="500px">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="assets/joy-face.png" width="500px">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="assets/terror-face.png" width="500px">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="assets/suprise-face.png" width="500px">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="assets/rage-face.png" width="500px">
+  </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+<script src="" async defer></script>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+</script>
+
+  <h1>Expressions</h1>
+  <h2>2022</h2> 
+  <p>Expressions is a project done in one of my illustration classes. The goal of the project was to understand how expressiveness can be shown in individual features on the face. This project really helped me understand the importance of showing emotion on a person through an expression. It is a vital skill that can be applied to my future illustrations.
+
+  </p>

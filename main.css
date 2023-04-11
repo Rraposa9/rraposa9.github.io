@@ -1,0 +1,500 @@
+
+
+body {
+    background-image: url("assets/background2.png");
+    background-repeat: repeat;
+    background-size: 100%;
+    
+}
+
+h1 {
+    color: rgb(0, 59, 105);
+    font-family: 'Catamaran', sans-serif;
+    
+    
+    
+}
+
+h2 {
+    font-family: 'Catamaran', sans-serif;
+    color: rgb(0, 59, 105);
+    
+}
+
+li {
+    font-family: 'Catamaran', sans-serif;
+    
+}
+
+h3 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight:400;
+    color: rgb(0, 59, 105);
+}
+
+p {
+    font-family: 'Catamaran', sans-serif;
+    color: rgb(0, 59, 105);
+}
+
+
+.image-gallery {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    grid-template-areas:
+    ". a b c ."
+    ". d e f ."
+    ;
+}
+
+.box-styling {
+    height: 350px;
+    /* background-color: rgb(110, 110, 110); */
+    /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+  }
+
+.box-wrapper{
+  height:350px;
+  border-radius: 1%;
+}
+.box1 {
+    grid-area: a;
+}
+
+.box2 {
+    grid-area: b;
+}
+
+.box3 {
+    grid-area: c;
+}
+
+.box4 {
+    grid-area: d;
+}
+
+.box5 {
+    grid-area: e;
+}
+
+.box6 {
+    grid-area: f;
+}
+
+.bigText {
+    font-size: 2em;
+    padding-right: .5ch;
+}
+
+.contact {
+  color: rgb(0, 59, 105);
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+}
+
+#name {
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-family: 'Catamaran', sans-serif;
+  background-color: transparent;
+  width: 150px;
+  font-weight: 400;
+}
+
+#password {
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-family: 'Catamaran', sans-serif;
+  background-color: transparent;
+  width: 150px;
+  font-weight: 400;
+}
+
+#freeform {
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-family: 'Catamaran', sans-serif;
+  background-color: transparent;
+  font-weight: 400;
+
+}
+
+.resume {
+  color: white;
+  /* text-decoration-line: none; */
+  background-color: rgb(255, 255, 255);
+  padding: 8px 35px;
+  display: inline-block;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  border-radius: 4px;
+  text-decoration-line: none;
+  
+}
+
+a:link {
+text-decoration: none;
+
+}
+
+a:visited {
+text-decoration: none;
+color: rgb(0, 59, 105);;
+}
+
+nav ul {
+  margin:0 auto;
+  padding:5;
+  display:flex;
+}
+nav li{
+
+  list-style-type: none;
+  padding: 30px;
+  font-size: 1.7em;
+  margin-top: 0px;
+}
+
+nav li a {
+  color: rgb(0, 59, 105);
+  font-weight: 700;
+  text-decoration: none;
+  transition: .3s;
+}
+
+nav li a:hover {
+  color:rgb(225, 38, 113);
+  opacity: 1;
+  text-decoration: none;
+}
+
+
+/* MEDIA QUERY FOR MOBILE */
+@media (max-width:875px) {
+    
+    body {
+        background-image: url("assets/mobile-background.png");
+        background-repeat: repeat;
+        background-size: 100%;
+        
+    }
+
+    .container{
+      
+      /* margin-right:3em; */
+      min-width:100%;
+      /* width:100%; */
+      height:100vh;
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-template-areas:
+            "icon"
+            "nav"
+            "content"
+            "footer";
+    }
+
+    .favicon {
+      display: block;
+      padding-left:11em;
+    padding-right: 4em;
+      width: 50%;
+      margin-top: 30px;
+      grid-area: favicon;
+    }
+  
+
+    nav {
+        padding-left: 0;
+        grid-area:nav;
+    }
+
+.content {
+  grid-area: content;
+}
+
+   .image-gallery {
+       padding-bottom: 50%;
+       grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+       grid-template-areas:
+       ".a."
+       ".b."
+       ".c."
+       ".d."
+       ".e."
+       ".f."
+       ;
+    }
+
+.nav{
+    padding-left:4em;
+    padding-right: 4em;
+    /* TODO: figure out no longer staying fixed */
+    position:fixed;
+    width: 100%;
+    top:0px;
+    right: 90px;
+    z-index: 1;
+   
+  }
+
+  .nav ul {
+    padding-left:4em;
+  padding-right:4em;
+  }
+  
+.portrait {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+   
+}
+
+.slideshow-container {
+    width: auto;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.ice-skate {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+.breeze {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.reflection {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.comic {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.self-portrait {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.about-info {
+    padding-left: 3cm;
+}
+
+.contact-illustration {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-name {
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+footer {
+   display: block;
+   text-align: center;
+   grid-area: footer;
+   margin-top: 170px;
+}
+
+
+
+.icon-container {
+    width: 80px;
+}
+
+.instagram {
+    width: 70px;
+    
+}
+
+.email-icon {
+    width: 70px;
+    
+}
+
+.icon-container{
+    width: 60px;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "a b";
+    grid-gap: 10px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+
+
+
+ 
+
+/* FOOTER SECTION */
+/* 
+footer{
+    padding-left:4em;
+    padding-right: 4em; */
+    /* TODO: figure out no longer staying fixed */
+    /* margin: auto;
+    width: 5%;
+    top:0;
+    right: 30px;;
+    z-index:10;
+    color: rgb(0, 59, 105); */
+  /* } */
+
+/* .icon-container {
+    display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas: 
+"a b";
+grid-gap: 10px;
+position: relative; */
+
+}
+
+/* ABOUT SECTION */
+
+
+
+
+.firstName {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.about-info {
+
+    padding-left:4em;
+    padding-right: 4em;
+
+}
+
+.portrait {
+    padding-left:4em;
+    padding-right: 4em;
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
+    .nav{
+        padding-left: 4em;
+        padding-right: 4em;
+        /* TODO: figure out no longer staying fixed */
+        position: relative;
+        width: 100%;
+        top:0px;
+        z-index: 1;
+        
+       
+      }
+    
+      nav ul {
+        margin:0;
+        padding:0;
+        padding-left:4em;
+        padding-right: 4em;
+        display:flex;
+        
+      }
+      nav li{
+    
+        list-style-type: none;
+        padding: 35px;
+        font-size: 1.5em;
+        
+      }
+      
+      nav li a {
+        color: rgb(0, 59, 105);
+        font-weight: 700;
+        text-decoration: none;
+        transition: .3s;
+      }
+      
+      nav li a:hover {
+        color:rgb(225, 38, 113);
+        opacity: 1;
+        text-decoration: none;
+      }
+
+      .ice-skate {
+        width: 600px;
+        display: block;
+        margin-left: auto;
+      margin-right: auto;
+    
+    }
+    
+    .breeze {
+        width: 450px;
+        display: block;
+        margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .reflection {
+        width: 450px;
+        display: block;
+        margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .comic {
+        width: 400px;
+        display: block;
+        margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .self-portrait {
+        width: 450px;
+        display: block;
+        margin-left: auto;
+      margin-right: auto;
+    }
+    
+  .nav {
+    margin: auto;
+    
+  }
+    
+    
+}}
+
