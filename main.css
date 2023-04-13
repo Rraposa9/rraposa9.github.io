@@ -194,6 +194,8 @@ nav li a:hover {
         background-image: url("assets/mobile-background.png");
         background-repeat: repeat;
         background-size: 100%;
+        background-position: center;
+        
         
     }
 
@@ -207,7 +209,7 @@ nav li a:hover {
       grid-template-columns: 1fr;
       grid-template-rows: auto;
       grid-template-areas:
-            "icon"
+            "favicon"
             "nav"
             "content"
             "footer";
