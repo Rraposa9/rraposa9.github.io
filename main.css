@@ -153,7 +153,7 @@ color: rgb(0, 59, 105);;
 
 nav ul {
   margin:0 auto;
-  padding:5;
+  /* padding:5; */
   display:flex;
 }
 nav li{
@@ -180,11 +180,10 @@ nav li a:hover {
 
 .favicon {
   display: block;
-  padding-left:11em;
-padding-right: 4em;
   width: 50%;
   margin-top: 30px;
   grid-area: favicon;
+  margin: auto;
 }
 
 /* MEDIA QUERY FOR MOBILE */
@@ -212,16 +211,6 @@ padding-right: 4em;
             "content"
             "footer";
     }
-
-    .favicon {
-      display: block;
-      padding-left:11em;
-    padding-right: 4em;
-      width: 50%;
-      margin-top: 30px;
-      grid-area: favicon;
-    }
-  
 
     nav {
         padding-left: 0;
@@ -464,7 +453,7 @@ position: relative; */
     }
     
   .nav li {
-    padding: 150px;
+    /* padding: 150px; */
   font-size: 1.7em;
     
   }
