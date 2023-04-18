@@ -90,3 +90,8 @@
 .hovereffect:hover .favicon{
   color: aquamarine;
 }
+
+.resume-interaction:hover{
+  fill:rgb(225, 38, 113);
+    transition: .3s;
+}
