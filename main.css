@@ -185,7 +185,30 @@ nav li a:hover {
   margin: auto;
 }
 
+.skate-text {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
+.breeze-text {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.reflection-text {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.comic-text {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.self-text {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 /* MEDIA QUERY FOR MOBILE */
 @media (max-width:875px) {
@@ -277,21 +300,11 @@ nav li a:hover {
 
 }
 
-.skate-text {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
 .breeze {
     width: 450px;
     display: block;
     margin-left: auto;
   margin-right: auto;
-}
-
-.breeze-text {
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 .reflection {
@@ -301,12 +314,14 @@ nav li a:hover {
   margin-right: auto;
 }
 
+
 .comic {
     width: 400px;
     display: block;
     margin-left: auto;
   margin-right: auto;
 }
+
 
 .self-portrait {
     width: 450px;
