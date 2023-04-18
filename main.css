@@ -129,7 +129,7 @@ p {
 .resume {
   color: white;
   /* text-decoration-line: none; */
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.497);
   padding: 8px 35px;
   display: inline-block;
   font-family: 'Catamaran', sans-serif;
@@ -208,6 +208,18 @@ nav li a:hover {
 .self-text {
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.survey {
+  color: rgb(255, 255, 255);
+  /* text-decoration-line: none; */
+  background-color: rgba(255, 255, 255, 0.502);
+  padding: 8px 35px;
+  display: inline-block;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  border-radius: 4px;
+  text-decoration-line: none;
 }
 
 /* MEDIA QUERY FOR MOBILE */
