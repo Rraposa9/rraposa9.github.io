@@ -290,13 +290,6 @@ nav li a:hover {
    
 }
 
-.slideshow-container {
-    width: auto;
-    display: block;
-    margin-left: auto;
-  margin-right: auto;
-}
-
 .ice-skate {
     width: 450px;
     display: block;
@@ -360,6 +353,10 @@ footer {
    margin-top: 170px;
 }
 
+svg {
+  fill: rgb(0, 59, 105);
+  
+  }
 
 .instagram {
     width: 50px;
