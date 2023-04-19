@@ -41,19 +41,7 @@ p {
 }
 
 
-.image-gallery {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
-    grid-template-rows: auto;
-    grid-gap: 20px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    grid-template-areas:
-    ". a b c ."
-    ". d e f ."
-    ;
-}
+
 
 .box-styling {
     height: 350px;
@@ -260,8 +248,13 @@ nav li a:hover {
 }
 
    .image-gallery {
-       padding-bottom: 50%;
+      /* width: 450px; */
+      margin: auto;
+      padding-bottom: 50%;
        grid-template-columns: 1fr;
+       grid-gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 200px;
        grid-template-areas:
        "a"
        "b"
@@ -369,18 +362,19 @@ footer {
 
 
 .instagram {
-    width: 70px;
+    width: 50px;
     
 }
 
 .email-icon {
-    width: 90px;
+    width: 60px;
     
 }
 
 .icon-container{
     width: 60px;
-    margin: 0 auto;
+   padding-left: 9em;
+   padding-right: 9em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -389,8 +383,7 @@ footer {
     grid-gap: 10px;
     /* position: relative; */
     /* display: block; */
-    margin-left: 170px;
-  margin-right: auto;
+   
 
 
 }
@@ -432,6 +425,20 @@ footer{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
  
+
+  .image-gallery {
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    grid-template-areas:
+    ". a b c ."
+    ". d e f ."
+    ;
+}
 
       .ice-skate {
         width: 600px;
