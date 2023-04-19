@@ -263,6 +263,7 @@ nav li a:hover {
        "e"
        "f"
        ;
+       padding: 5%;
     }
 
 .nav{
@@ -359,7 +360,7 @@ svg {
   }
 
 .instagram {
-    width: 50px;
+    width: 60px;
     
 }
 
@@ -369,15 +370,18 @@ svg {
 }
 
 .icon-container{
+  display:inline
     width: 60px;
-   padding-left: 9em;
-   padding-right: 9em;
+    gap: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     "a b";
-    grid-gap: 10px;
+    grid-gap: px;
+    padding:  30px;
+    margin: auto;
+    
     /* position: relative; */
     /* display: block; */
    
