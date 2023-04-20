@@ -182,6 +182,7 @@ nav li a:hover {
   padding-bottom: 10px;
   grid-area: favicon;
   margin: auto;
+  
 }
 
 .expressions-text {
@@ -380,6 +381,7 @@ footer {
    text-align: center;
    grid-area: footer;
    margin-top: 100px;
+   
 }
 
 svg {

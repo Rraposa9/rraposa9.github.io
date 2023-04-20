@@ -96,7 +96,3 @@
     transition: .3s;
 }
 
-a:visited:hover {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  }
