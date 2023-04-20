@@ -1,6 +1,6 @@
-/* *{
+*{
   border: 3px solid red;
-} */
+}
 
 body {
     background-image: url("assets/background2.png");
@@ -11,6 +11,11 @@ body {
 
 .container {
   width: 100vw;
+}
+
+header {
+  margin: auto;
+  
 }
 
 h1 {
@@ -291,8 +296,15 @@ nav li a:hover {
    
 }
 
+.expressions {
+  width: 400px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
 .ice-skate {
-    width: 450px;
+    width: 400px;
     display: block;
     margin-left: auto;
   margin-right: auto;
@@ -300,14 +312,14 @@ nav li a:hover {
 }
 
 .breeze {
-    width: 450px;
+    width: 400px;
     display: block;
     margin-left: auto;
   margin-right: auto;
 }
 
 .reflection {
-    width: 450px;
+    width: 400px;
     display: block;
     margin-left: auto;
   margin-right: auto;
@@ -323,7 +335,7 @@ nav li a:hover {
 
 
 .self-portrait {
-    width: 450px;
+    width: 400px;
     display: block;
     margin-left: auto;
   margin-right: auto;
@@ -370,17 +382,17 @@ svg {
 }
 
 .icon-container{
-  display:inline
-    width: 60px;
+    display:grid;
+    margin: auto;
+    /* width: 60px; */
     gap: 10%;
-    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     "a b";
-    grid-gap: px;
-    padding:  30px;
-    margin: auto;
+    margin-top: 30px;
+    padding-bottom:  30px;
+    
     
     /* position: relative; */
     /* display: block; */
@@ -418,7 +430,8 @@ footer{
 
 .portrait {
     padding-left:4em;
-    padding-right: 4em;
+    /* padding-right: 4em; */
+    width: 250px;
 }
 
 
@@ -482,6 +495,19 @@ footer{
   font-size: 1.7em;
     
   }
+
+  .about-info {
+
+    padding-left:4em;
+    padding-right: 4em;
+
+}
+
+  .portrait {
+    padding-left:4em;
+    /* padding-right: 4em; */
+    width: 650px;
+}
 
 }
 
