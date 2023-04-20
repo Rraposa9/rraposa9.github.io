@@ -49,7 +49,7 @@ p {
 
 
 .box-styling {
-    height: 350px;
+    height: 380px;
     /* background-color: rgb(110, 110, 110); */
     /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
   }
@@ -120,6 +120,16 @@ p {
   font-weight: 400;
 
 }
+
+#send {
+  border-radius: 10px;
+  color: rgb(0, 59, 105);
+  font-family: 'Catamaran', sans-serif;
+  background-color: rgba(255, 255, 255, 0.731);
+  font-weight: 700;
+  font-size:medium;
+}
+
 
 .resume {
   color: white;
