@@ -136,7 +136,7 @@ p {
 
 a:link {
 text-decoration: none;
-color: rgb(0, 59, 105);
+color: rgb(255, 255, 255);
 
 }
 
@@ -167,7 +167,8 @@ nav li a {
 }
 
 nav li a:hover {
-  color:rgb(225, 38, 113);
+  /* color:rgb(225, 38, 113); */
+  color: rgb(229, 38, 124);
   opacity: 1;
   text-decoration: none;
 }
@@ -216,11 +217,12 @@ nav li a:hover {
 .survey {
   color: rgb(255, 255, 255);
   /* text-decoration-line: none; */
-  padding: 8px 35px;
+  padding: 8px 30px;
+  /* background-color: rgba(255, 255, 255, 0.497); */
   display: inline-block;
   font-family: 'Catamaran', sans-serif;
   font-weight: 700;
-  border-radius: 4px;
+  border-radius: 100px;
   text-decoration-line: none;
 }
 
@@ -310,6 +312,7 @@ nav li a:hover {
     display: block;
     margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
 }
 
 .ice-skate {
@@ -317,7 +320,7 @@ nav li a:hover {
     display: block;
     margin-left: auto;
   margin-right: auto;
-
+  padding-top: 20px;
 }
 
 .breeze {
@@ -325,6 +328,7 @@ nav li a:hover {
     display: block;
     margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
 }
 
 .reflection {
@@ -332,6 +336,7 @@ nav li a:hover {
     display: block;
     margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
 }
 
 
@@ -340,6 +345,7 @@ nav li a:hover {
     display: block;
     margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
 }
 
 
@@ -348,6 +354,7 @@ nav li a:hover {
     display: block;
     margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
 }
 
 .about-info {
@@ -355,7 +362,7 @@ nav li a:hover {
 }
 
 .contact-illustration {
-    width: 300px;
+    width: 350px;
     display: block;
     margin-left: auto;
   margin-right: auto;
