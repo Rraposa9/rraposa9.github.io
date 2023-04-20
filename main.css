@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 header {
@@ -136,12 +136,13 @@ p {
 
 a:link {
 text-decoration: none;
+color: rgb(0, 59, 105);
 
 }
 
 a:visited {
 text-decoration: none;
-color: rgb(0, 59, 105);;
+color: rgb(0, 59, 105);
 }
 
 nav ul {
@@ -250,6 +251,7 @@ nav li a:hover {
 
 .content {
   grid-area: content;
+ 
 }
 
    .image-gallery {
@@ -385,7 +387,7 @@ svg {
     display:grid;
     margin: auto;
     /* width: 60px; */
-    gap: 10%;
+    grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
