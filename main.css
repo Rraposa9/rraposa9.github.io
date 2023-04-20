@@ -9,9 +9,9 @@ body {
     
 }
 
-.container {
-  /* width: 100vw; */
-}
+/* .container {
+  width: 100vw;
+ } */ 
 
 header {
   margin: auto;
@@ -153,9 +153,9 @@ nav ul {
 nav li{
 
   list-style-type: none;
-  padding: 30px;
+  padding: 10px;
   font-size: 1.7em;
-  margin-top: 0px;
+  margin-top: px;
   margin: auto;
 }
 
@@ -176,9 +176,16 @@ nav li a:hover {
 .favicon {
   display: block;
   width: 50%;
-  margin-top: 30px;
+  /* margin-top: 30px; */
+  padding-top: 5px;
+  padding-bottom: 10px;
   grid-area: favicon;
   margin: auto;
+}
+
+.expressions-text {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .skate-text {
@@ -365,7 +372,7 @@ footer {
    display: block;
    text-align: center;
    grid-area: footer;
-   margin-top: 170px;
+   margin-top: 100px;
 }
 
 svg {
@@ -449,7 +456,7 @@ footer{
     grid-template-rows: auto;
     grid-gap: 20px;
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     grid-template-areas:
     ". a b c ."
     ". d e f ."
@@ -509,6 +516,12 @@ footer{
     padding-left:4em;
     /* padding-right: 4em; */
     width: 650px;
+}
+
+.contact-illustration {
+  width: 700px;
+  margin-left: auto;
+margin-right: auto;
 }
 
 }
