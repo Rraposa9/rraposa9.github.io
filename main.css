@@ -386,6 +386,10 @@ nav li a:hover {
 
 }
 
+.email {
+  font-weight: 700;
+}
+
 footer {
    display: block;
    text-align: center;
