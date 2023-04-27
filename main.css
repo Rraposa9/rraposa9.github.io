@@ -479,7 +479,7 @@ footer{
     grid-template-rows: auto;
     grid-gap: 20px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
     grid-template-areas:
     ". a b c ."
     ". d e f ."
