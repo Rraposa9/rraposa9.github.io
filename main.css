@@ -312,11 +312,7 @@ nav li a:hover {
   }
   
 .portrait {
-    width: 400px;
-    display: block;
-    margin-left: auto;
-  margin-right: auto;
-   
+    width: 200px;
 }
 
 .expressions {
@@ -546,7 +542,7 @@ footer{
 }
 
   .portrait {
-    padding-left:4em;
+    padding-left:10em;
     /* padding-right: 4em; */
     width: 650px;
 }
